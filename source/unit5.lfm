@@ -1,0 +1,288 @@
+object Form5: TForm5
+  Left = 299
+  Height = 446
+  Top = 122
+  Width = 941
+  Caption = 'History'
+  ClientHeight = 446
+  ClientWidth = 941
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Panel1: TPanel
+    Left = 24
+    Height = 30
+    Top = 40
+    Width = 70
+    Caption = 'ID'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 25
+    Top = 8
+    Width = 139
+    Caption = 'Data Pasien'
+    Color = clHighlight
+    Font.Height = -21
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Panel2: TPanel
+    Left = 94
+    Height = 30
+    Top = 40
+    Width = 130
+    Caption = 'Nomor'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 224
+    Height = 30
+    Top = 40
+    Width = 200
+    Caption = 'Nama'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Panel4: TPanel
+    Left = 424
+    Height = 30
+    Top = 40
+    Width = 300
+    Caption = 'Alamat'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Panel5: TPanel
+    Left = 724
+    Height = 30
+    Top = 40
+    Width = 70
+    Caption = 'Umur'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Panel6: TPanel
+    Left = 794
+    Height = 30
+    Top = 40
+    Width = 70
+    Caption = 'Sex'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Panel7: TPanel
+    Left = 24
+    Height = 30
+    Top = 112
+    Width = 150
+    Caption = 'Phone'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Panel8: TPanel
+    Left = 174
+    Height = 30
+    Top = 112
+    Width = 200
+    Caption = 'Allergi'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Panel9: TPanel
+    Left = 374
+    Height = 30
+    Top = 112
+    Width = 200
+    Caption = 'Riwayat'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Panel10: TPanel
+    Left = 574
+    Height = 30
+    Top = 112
+    Width = 200
+    Caption = 'Keterangan'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Panel11: TPanel
+    Left = 774
+    Height = 30
+    Top = 112
+    Width = 130
+    Caption = 'Pertama'
+    Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Edit1: TEdit
+    Left = 24
+    Height = 29
+    Top = 70
+    Width = 70
+    TabOrder = 11
+  end
+  object Edit2: TEdit
+    Left = 94
+    Height = 29
+    Top = 70
+    Width = 130
+    TabOrder = 12
+  end
+  object Edit3: TEdit
+    Left = 224
+    Height = 29
+    Top = 70
+    Width = 200
+    TabOrder = 13
+  end
+  object Edit4: TEdit
+    Left = 424
+    Height = 29
+    Top = 70
+    Width = 300
+    TabOrder = 14
+  end
+  object Edit5: TEdit
+    Left = 724
+    Height = 29
+    Top = 70
+    Width = 70
+    TabOrder = 15
+  end
+  object Edit6: TEdit
+    Left = 794
+    Height = 29
+    Top = 70
+    Width = 70
+    TabOrder = 16
+  end
+  object Edit7: TEdit
+    Left = 24
+    Height = 29
+    Top = 142
+    Width = 150
+    TabOrder = 17
+  end
+  object Edit8: TEdit
+    Left = 174
+    Height = 29
+    Top = 142
+    Width = 200
+    TabOrder = 18
+  end
+  object Edit9: TEdit
+    Left = 374
+    Height = 29
+    Top = 142
+    Width = 200
+    TabOrder = 19
+  end
+  object Edit10: TEdit
+    Left = 574
+    Height = 29
+    Top = 142
+    Width = 200
+    TabOrder = 20
+  end
+  object Edit11: TEdit
+    Left = 774
+    Height = 29
+    Top = 142
+    Width = 130
+    TabOrder = 21
+  end
+  object SG: TStringGrid
+    Left = 24
+    Height = 168
+    Top = 216
+    Width = 904
+    ColumnClickSorts = True
+    RowCount = 5000
+    TabOrder = 22
+    OnValidateEntry = Simpan
+    ColWidths = (
+      61
+      143
+      152
+      565
+      74
+    )
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 25
+    Top = 184
+    Width = 177
+    Caption = '     History        '
+    Color = clHighlight
+    Font.Height = -21
+    Font.Name = 'Sans'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end
