@@ -10,5 +10,5 @@ Untuk versi Linux Amd64 libsqlite3.so harus ditaruh di /usr/lib/x86_64-linux-gnu
 Bila sudah ada sqlite3.dll di system32 atau libsqlite3.so di i386-linux-gnu/x86_64-linux-gnu, program sudah dapat berjalan.
 Sqlite3 database nya datapas.db ditaruh di direktori yang sama dengan pasien.exe, atau pasien untuk Linux.
 
-
+If someone need modification, please contact me at: pjtht@protonmail.com or there was something error please inform me too.
 
