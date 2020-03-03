@@ -11,4 +11,4 @@ Bila sudah ada sqlite3.dll di system32 atau libsqlite3.so di i386-linux-gnu/x86_
 Sqlite3 database nya datapas.db ditaruh di direktori yang sama dengan pasien.exe, atau pasien untuk Linux.
 
 If someone need modification, please contact me at: pjtht@protonmail.com or there was something error please inform me too.
-
+Or contact me with WA : +6289651280747
